@@ -1,2 +1,20 @@
+# Site settings
+title: Command Line for Biologists
+description: A Practical Guide for the Terminal, Tools, and Workflows for Biologists
+author: Andrew Budge
+
+# GitHub Pages settings
+url: https://andrewbudge.github.io
+baseurl: /Command-line-for-Biologists
+
+# Theme
 theme: jekyll-theme-minimal
+
+# Build settings
+markdown: kramdown
+
+# Show downloads button
 show_downloads: false
+
+# Social links
+github_username: andrewbudge
