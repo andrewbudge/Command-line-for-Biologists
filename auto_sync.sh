@@ -1,13 +1,16 @@
 #!/bin/bash
-# Repo-friendly Git auto-sync script
-# Only commits if there are changes
+# Repo-friendly Git auto-sync script with pull-before-push
+# Only commits if there are local changes
 
 # Path to your repo (current folder)
 REPO="$(pwd)"
 
 cd "$REPO" || { echo "Repo not found!"; exit 1; }
 
-# Check if there are changes
+# Pull remote changes first to avoid push rejection
+git pull --rebase origin main
+
+# Check if there are local changes
 if git diff --quiet && git diff --cached --quiet; then
     echo "No changes to commit."
     exit 0
