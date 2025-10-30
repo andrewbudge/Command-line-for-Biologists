@@ -1,4 +1,5 @@
-theme: jekyll‑theme‑minimal
-title: Command-Line for Biologists
-description: A Practical Guide for the Terminal, Tools, and Workflows for Biologists
+title: Command Line for Biologists
+description: A practical guide to the command line for biologists
 author: Andrew Budge
+theme: jekyll-theme-minimal
+show_downloads: false
