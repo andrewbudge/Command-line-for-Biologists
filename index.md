@@ -1,13 +1,3 @@
-# Command-line for Biologists:
-*A Practical Guide for the Terminal, Tools, and Workflows*
-
-By Andrew Budge
-
-Table of Contents
-1: Introduction
-2: Terminal
-3: Tools
-4: Workflows
 
 ---
 ## Introduction:
@@ -17,7 +7,7 @@ Table of Contents
 Biological data is being produced in unprecedented amounts. Not only is this data being generated, a significant portion of it is available through publicly accessibly databases. 
 
 ---
-# Terminal
+# The Terminal
 
 ## Introduction:
 
