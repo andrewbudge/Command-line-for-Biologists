@@ -80,7 +80,7 @@ Think of it like giving someone your full street address. It doesn't matter wher
 experiment_data/results.txt
 ```
 
-This path assumes you're already in the `/home/user/projects/` directory. Think of it like telling your friend "I'm two blocks north of the coffee shop" - it only makes sense if they know where the coffee shop is.
+This path assumes you're already in the `/home/user/projects/` directory. Think of it like telling your friend "I'm two blocks north of the store" - it only makes sense if they know where the store is.
 #### Path Shortcuts
 
 There are a few special symbols that make navigating with paths easier:
