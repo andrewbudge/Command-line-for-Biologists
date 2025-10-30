@@ -73,7 +73,7 @@ There are two types of paths: absolute and relative.
 /home/user/projects/experiment_data/results.txt
 ```
 
-Think of it like giving someone your full street address: "123 Main Street, Springfield, IL 62701." It doesn't matter where they're starting from - they can find you.
+Think of it like giving someone your full street address. It doesn't matter where they're starting from - they can find you.
 
 **Relative paths** start from your current location. They don't begin with a `/` and are like giving directions from where you are now.
 ```
