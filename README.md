@@ -11,7 +11,7 @@ Biological data is being produced in unprecedented amounts. Not only is this dat
 
 ## Introduction:
 
-Most computer programs use graphically based interfaces, meaning that you 'see' what you are doing. You select options, drag and drop files, search through drop down menus, and click on buttons to accomplish tasks. A graphical user interface (shortened to "gui" or "GUI" and sometimes pronounced "Gooey") is easy to use, intuitive, and works for everyday use.
+Most modern computer programs use graphically based interfaces, meaning that you 'see' what you are doing. You select options, drag and drop files, search through drop down menus, and click on buttons to accomplish tasks. A graphical user interface (shortened to "gui" or "GUI" and sometimes pronounced "Gooey") is easy to use, intuitive, and works for everyday use.
 
 GUIs are not without limitations though. Typically, GUIs take up more space on a computer and consume more computational resources, as they are not only performing a designated task, but also rendering a visual output. GUIs also do not scale particularly well. If working with a few files, clicking a few options in a GUI to accomplish a task is time efficient and practical. However, when working with hundreds or even thousands of files, using a GUI very quickly becomes time consuming and monotonous.
 
