@@ -1,4 +1,14 @@
 
+
+# **This is a work in progress!!!**
+
+## Foreword
+# To the reader:
+This guide is an attempt to make the power of computation accessible to researchers and scientists everywhere, and in particular, biologists. Whether you have used computers your whole life or are taking your first tentative steps into the digital world, I hope that this guide will enable you to see the power that lies behind the screen.
+
+Andrew Budge
+
+
 ---
 ## Introduction:
 
@@ -33,11 +43,11 @@ Another way to think of it is like a notebook. The whole notebook represents the
 
 You are in control of how the directories and files within your computer are organized. **You are your own best and worst collaborator.** There are innumerable ways to organize information on your computer. The most important attributes of any organizational system are that it is consistent, scalable, and meaningful.
 
-Consistent means using the same naming conventions and directory structure across all your projects. Naming one project `experiment_2024_sequencing` and another `seq-exp-2025` will mean trying work with two different naming conventions at the same time. The only thing worse then a trying to understand a poor naming convention is trying to understand a project that uses two. Feel free to experiment in the beginning with what works for you, but when you do find one that does, stick with it. 
+1. Consistent means using the same naming conventions and directory structure across all your projects. Naming one project `experiment_2024_sequencing` and another `seq-exp-2025` will mean trying work with two different naming conventions at the same time. The only thing worse then a trying to understand a poor naming convention is trying to understand a project that uses two. Feel free to experiment in the beginning with what works for you, but when you do find one that does, stick with it. 
 
-Scalable means your system works with any number of files. Whether the project involves 10 files or 1000's, your system for naming files and creating directories should be able to handle both. A folder simply named `data` might work fine at first, but becomes quickly become useless when you have multiple datasets. Using descriptive names like `raw_data`, `processed_data`, and `analysis_results`, will ensure that your project will be able to grow effectively.
+2. Scalable means your system works with any number of files. Whether the project involves 10 files or 1000's, your system for naming files and creating directories should be able to handle both. A folder simply named `data` might work fine at first, but becomes quickly become useless when you have multiple datasets. Using descriptive names like `raw_data`, `processed_data`, and `analysis_results`, will ensure that your project will be able to grow effectively.
 
-Meaningful (or non-trivial) means your file and directory names convey important information at a glance. A file named `data1.txt` tells you nothing about the contents of the file. A file named `2025_E.coli_growth_curve_replicate1.txt` tells you the date, organism, experiment type, and replicate number. Utilizing meaningful names ensures more time is spend performing analysis and less time searching though files to find the right one. 
+3. Meaningful (or non-trivial) means your file and directory names convey important information at a glance. A file named `data1.txt` tells you nothing about the contents of the file. A file named `2025_E.coli_growth_curve_replicate1.txt` tells you the date, organism, experiment type, and replicate number. Utilizing meaningful names ensures more time is spend performing analysis and less time searching though files to find the right one. 
 
 ### Paths: How you and a computer know where files and directories are at
 
