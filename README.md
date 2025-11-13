@@ -3,7 +3,7 @@
 # **This is a work in progress!!!**
 
 ## Foreword
-# To the reader:
+
 This guide is an attempt to make the power of computation accessible to researchers and scientists everywhere, and in particular, biologists. Whether you have used computers your whole life or are taking your first tentative steps into the digital world, I hope that this guide will enable you to see the power that lies behind the screen.
 
 Andrew Budge
@@ -37,7 +37,7 @@ The command line is empty to begin with, but where you type starts with a symbol
 
 ### Directory Structures and Files: How a a computer stores and accesses information 
 
-Knowing how a computer stores information is critical to using a CLI. When using a GUI, we see a collection of icons and folders that represent the underlying structure. Directories (folders) are organized in a hierarchical structure. Think of it as an upside-down tree. The top is the root directory (the trunk), and directories branch out into sub-directories from there, which can contain more subdirectories, and so on. Each directory can contain files and other directories.
+Before we type and run our first commands, there are some essentials we need to cover. Knowing how a computer stores information is critical to using a CLI. When using a GUI, we see a collection of icons and folders that represent the underlying structure. Directories (folders) are organized in a hierarchical structure. Think of it as an upside-down tree. The top is the root directory (the trunk), and directories branch out into sub-directories from there, which can contain more subdirectories, and so on. Each directory can contain files and other directories.
 
 Another way to think of it is like a notebook. The whole notebook represents the entire directory structure. Within the notebook, we create specific sections for different topics or notes. These can be thought of as the sub-directories. Within each of these sections, notes and other information can be recorded, like different files such as PDFs or spreadsheets.
 
@@ -108,7 +108,7 @@ Command-line is not a graphical user interface. Rather than using a mouse and cl
 
 You have to know where you are in order to know how to get where you want to go. the command `pwd` (Short for print working directory), will print to the terminal where you are currently. Example:
 
-```
+```bash
 $ pwd 
 /home/user/directory
 ```
@@ -161,6 +161,17 @@ Using `cd` without an argument will take you back to your home directory.
 
 ### cp: How do I copy files and directories?
 
-### rm: How do I delete files and directories?
+```bash
+$ls
+test_file.txt
+$ cp test_file.txt subdirectory/test_file_copy.txt
+$ ls subdirectory/
+test_file_copy.txt
+```
+
+### rm: How do I delete files?
+### rmdir: How do I remove directories?
 
 ---
+## Using command-line tools:
+
