@@ -8,13 +8,14 @@ This guide is an attempt to make the power of computation accessible to research
 
 Andrew Budge
 
-
 ---
 ## Introduction:
 
 *Biology is becoming an information science* - Leroy Hood
 
-Biological data is being produced in unprecedented amounts. Not only is this data being generated, a significant portion of it is available through publicly accessibly databases. 
+The impact of that the computers have had on humanity cannot be overstated.  Since the invention of the modern electronic computer in the year 1946, the use of them has been incorporated into nearly every aspect of life. You interact with computers on a daily basis. What began as simple machines for arithmetic, have evolved into machines more powerful then ever imagined. The phone you hold hold in your hand is roughly 100,000 more powerful then the guidance computer aboard Apollo 11, the spacecraft that first put men on the moon in July, 20th 1960.
+
+In addition to the incredible development and improvement of computers, Biological data is being produced in unprecedented amounts. In 1977, Frederick Sanger and colleagues sequenced the 5,375 bp genome of the bacteriophage phi X174. Now, almost 50 years later, there are over 4.7 billion sequences available in public, online databases. 
 
 ---
 # The Terminal
@@ -145,9 +146,9 @@ drwxr-xr-x 5 user group 160  Oct 12 16:42 sub_directory
 Now that you know where you are and what is around you, you can move around. `cd` (short for "change directory") is how you can accomplish that. `cd` requires an argument, the path to directory you want to move to.
 
 ```bash
-$pwd
+$ pwd
 /home
-$ls
+$ ls
 directory
 $ cd directory/
 $ pwd
@@ -181,7 +182,7 @@ file1.txt file2.txt
 ### cp: How do I copy files and directories?
 
 ```bash
-$ls
+$ ls
 test_file.txt subdirectory
 $ cp test_file.txt subdirectory/test_file_copy.txt
 $ ls subdirectory/
