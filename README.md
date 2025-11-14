@@ -13,7 +13,7 @@ Andrew Budge
 
 *Biology is becoming an information science* - Leroy Hood
 
-The impact of that the computers have had on humanity cannot be overstated.  Since the invention of the modern electronic computer in the year 1946, the use of them has been incorporated into nearly every aspect of life. You interact with computers on a daily basis. What began as simple machines for arithmetic, have evolved into machines more powerful then ever imagined. The phone you hold hold in your hand is roughly 100,000 more powerful then the guidance computer aboard Apollo 11, the spacecraft that first put men on the moon in July, 20th 1960.
+The impact of that computers have had on humanity cannot be overstated.  Since the invention of the modern electronic computer in the year 1946, the use of them has been incorporated into nearly every aspect of life. You interact with computers on a daily basis. What began as simple machines for arithmetic, have evolved into machines more powerful then ever imagined. The phone you hold hold in your hand is roughly 100,000 more powerful then the guidance computer aboard Apollo 11, the spacecraft that first put men on the moon in July, 20th 1969.
 
 In addition to the incredible development and improvement of computers, Biological data is being produced in unprecedented amounts. In 1977, Frederick Sanger and colleagues sequenced the 5,375 bp genome of the bacteriophage phi X174. Now, almost 50 years later, there are over 4.7 billion sequences available in public, online databases. 
 
