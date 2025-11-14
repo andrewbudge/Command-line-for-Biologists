@@ -123,7 +123,7 @@ In a graphical user interface, it is very easy to see what is in a folder. In co
 
 Using the `ls` will print a very simple list of the files and directories in your current working directory. Typically files and directories will be represented by different colored texts (another way to tell is that directories do not have extensions).
 
-```
+```bash
 $ ls 
 file1.txt file2.txt sub_directory
 ```
@@ -132,7 +132,7 @@ file1.txt file2.txt sub_directory
 
 `ll` will print the same information as `ls`, but with more details (in fact, for most systems, `ll` is just an alias for `ls -l`). This includes information such as the size of the file, the date it was last modified, file privileges, the owner of the file, and more.
 
-```
+```bash
 $ ll 
 total 24 
 -rw-r--r-- 1 user group 1024 Oct 10 14:23 file1.txt 
@@ -144,8 +144,14 @@ drwxr-xr-x 5 user group 160  Oct 12 16:42 sub_directory
 
 Now that you know where you are and what is around you, you can move around. `cd` (short for "change directory") is how you can accomplish that. `cd` requires an argument, the path to directory you want to move to.
 
-```
-$ cd directory/sub_directory
+```bash
+$pwd
+/home
+$ls
+directory
+$ cd directory/
+$ pwd
+/home/directory
 ```
 
 Using `cd` without an argument will take you back to your home directory.  
@@ -154,8 +160,21 @@ Using `cd` without an argument will take you back to your home directory.
 ## Creating Directories and files
 
 ### mkdir: How do I make a directory?
+```bash
+$ ls
+$ mkdir raw_data results scripts
+$ ls
+raw_data results scripts
+```
 
 ### touch: How do I make a file?
+```bash
+$ ls
+file1.txt
+$ touch file2.txt
+$ ls
+file1.txt file2.txt
+```
 
 ### mv: How do I move directories and files around?
 
@@ -163,7 +182,7 @@ Using `cd` without an argument will take you back to your home directory.
 
 ```bash
 $ls
-test_file.txt
+test_file.txt subdirectory
 $ cp test_file.txt subdirectory/test_file_copy.txt
 $ ls subdirectory/
 test_file_copy.txt
